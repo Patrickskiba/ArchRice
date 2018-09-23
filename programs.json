@@ -1,0 +1,166 @@
+{
+    "base-devel": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "git": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "i3-gaps": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "xorg-server": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "xorg-xdpyinfo": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "xorg-xinit": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "dmenu": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "adobe-source-code-pro-fonts": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "ranger": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "calcurse": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "compton": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "exfat-utils": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "feh": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "firefox": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "gnome-keyring": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "gvim": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "i3blocks": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "i3lock": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "mpd": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "mpc": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "mpv": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "ncmpcpp": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "networkmanager": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "network-manager-applet": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "newsboat": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "ntfs-3g": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "pulseaudio": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "pulseaudio-alsa": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "pamixer": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "pulsemixer": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "python-pywal": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "scrot": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "tmux": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "unrar": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "unzip": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "w3m": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "wget": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "fzf": {
+        "source": "pacman",
+        "desc": ""
+    },
+    "ttf-emojione": {
+        "source": "aur",
+        "desc": ""
+    },
+    "visual-studio-code-bin": {
+        "source": "aur",
+        "desc": ""
+    },
+    "htop-vim-git": {
+        "source": "aur",
+        "desc": ""
+    }
+}
