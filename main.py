@@ -7,7 +7,7 @@ with open('programs.json', 'r') as f:
 
 pacman_progs = {k for k, v in programs.items() if v["source"] == "pacman"}
 
-run(['sudo', 'echo', '-S', '--needed', '--noconfirm', *pacman_progs])
+run(['sudo', 'pacman', '-S', '--needed', '--noconfirm', *pacman_progs])
 
 if not '[archlinuxfr]\nSigLevel = Never\nServer = http://repo.archlinux.fr/$arch' in open('/etc/pacman.conf').read():
     with open("/etc/pacman.conf", "a") as myfile:
