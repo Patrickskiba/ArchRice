@@ -75,6 +75,10 @@
         "source": "pacman",
         "desc": ""
     },
+    "i3status": {
+        "source": "pacman",
+        "desc": ""
+    },
     "mpd": {
         "source": "pacman",
         "desc": ""
