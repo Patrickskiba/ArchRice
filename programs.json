@@ -63,7 +63,7 @@
         "source": "pacman",
         "desc": ""
     },
-    "urxvt": {
+    "rxvt-unicode": {
         "source": "pacman",
         "desc": ""
     },
