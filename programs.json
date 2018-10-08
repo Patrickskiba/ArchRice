@@ -63,6 +63,10 @@
         "source": "pacman",
         "desc": ""
     },
+    "emacs": {
+        "source" : "pacman",
+        "desc": ""
+    },
     "rxvt-unicode": {
         "source": "pacman",
         "desc": ""
@@ -169,6 +173,10 @@
     },
     "htop-vim-git": {
         "source": "aur",
+        "desc": ""
+    },
+    "https://github.com/seebi/dircolors-solarized": {
+        "source": "git".
         "desc": ""
     }
 }
