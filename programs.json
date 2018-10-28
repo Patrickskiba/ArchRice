@@ -159,6 +159,10 @@
         "source": "pacman",
         "desc": ""
     },
+    "yajl": {
+        "source": "pacman",
+        "desc": ""
+    },
     "fzf": {
         "source": "pacman",
         "desc": ""
@@ -172,6 +176,18 @@
         "desc": ""
     },
     "htop-vim-git": {
+        "source": "aur",
+        "desc": ""
+    },
+    "freetube": {
+        "source": "aur",
+        "desc": ""
+    },
+    "beancount": {
+        "source": "aur",
+        "desc": ""
+    },
+    "fava": {
         "source": "aur",
         "desc": ""
     },

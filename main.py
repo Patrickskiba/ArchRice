@@ -9,11 +9,25 @@ pacman_progs = {k for k, v in programs.items() if v["source"] == "pacman"}
 
 run(['sudo', 'pacman', '-S', '--needed', '--noconfirm', *pacman_progs])
 
-if not '[archlinuxfr]\nSigLevel = Never\nServer = http://repo.archlinux.fr/$arch' in open('/etc/pacman.conf').read():
-    with open("/etc/pacman.conf", "a") as myfile:
-        myfile.write("[archlinuxfr]\nSigLevel = Never\nServer = http://repo.archlinux.fr/$arch")
+run(['git', 'clone', 'https://aur.archlinux.org/package-query.git'])
 
-    run(['sudo', 'pacman', '-Sy', 'yaourt'])
+run(['cd', 'package-query'])
+
+run(['makepkg', '-si'])
+
+run(['cd', '-'])
+
+run(['git', 'clone', 'https://aur.archlinux.org/yaourt.git'])
+
+run(['cd', 'yaourt'])
+
+run(['makepkg', '-si'])
+
+run(['cd', '-'])
+
+run(['sudo', 'rm', 'dR', 'yaourt/', 'package-query/'])
+
+run(['sudo', 'pacman', '-Sy', 'yaourt'])
 
 
 aur_progs = {k for k, v in programs.items() if v["source"] == "aur"}
