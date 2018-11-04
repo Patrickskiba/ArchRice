@@ -59,10 +59,6 @@
         "source": "pacman",
         "desc": ""
     },
-    "gvim": {
-        "source": "pacman",
-        "desc": ""
-    },
     "emacs": {
         "source" : "pacman",
         "desc": ""
@@ -192,7 +188,7 @@
         "desc": ""
     },
     "https://github.com/seebi/dircolors-solarized": {
-        "source": "git".
+        "source": "git",
         "desc": ""
     }
 }
